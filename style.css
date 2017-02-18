@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1500px;
+    font-family: 'PT Sans', serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+footer {
+    font-size: 9px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+article .last-child {
+    padding: 15px 0 28px 0;
+}
+
+img.awesome {
+    width: 207px;
+    float: left;
+    margin: 0 18px 10px 0;
+}
+
+img.toHtml {
+    width: 140px;
+    float: right;
+}
+
+.album img {
+    width: 195px;
+    height: 90px;
+    margin: 0 0 15px 0;
+}
+
+.album img:nth-child(2n) {
+    float: right;
+}
+
+.share {
+    box-sizing: border-box;
+    width: 90px;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    background: rgb(255, 176, 96);
+    border: 1px solid rgb(54, 43, 41);
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.social {
+    padding-top: 5px;
+}
+
+.social img {
+    border-radius: 50%;
+    width: 20px;
+}
+
+.sheet-1 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: rgb(236, 236, 236);
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    padding: 30px;
+}
+
+.sheet-2 {
+    border: 2px solid black;
+    background: rgb(205, 205, 205);
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sheet-3 {
+    margin: 200px auto 0;
+    border: 2px solid black;
+    background: rgb(173, 173, 173);
+    position: relative;
+    left: 34px;
+    top: 34px;
+    max-width: 524px;
+}
+
+.bookmark-3 {
+    width: 40px;
+    height: 30px;
+    border: 2px solid black;
+    background: rgb(0, 176, 238);
+    position: absolute;
+    left: 502px;
+    top: 35px;
+    border-radius: 0 7px 7px 0;
+}
+
+.bookmark-2 {
+    width: 70px;
+    height: 30px;
+    border: 2px solid black;
+    background: rgb(0, 180, 68);
+    position: absolute;
+    left: 498px;
+    top: 35px;
+    border-radius: 0 7px 7px 0;
+}
+
+.bookmark-1 {
+    width: 105px;
+    height: 30px;
+    border: 2px solid black;
+    background: rgb(255, 143, 90);
+    position: absolute;
+    left: 488px;
+    top: 35px;
+    border-radius: 0 7px 7px 0;
+}
